@@ -1,0 +1,89 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.sideimg{
+    width:33%;
+    height:100vh;
+    background-image:url(images/OIP.jpg) ;
+}
+.rightside{
+    width:67%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    display: flex;
+    height: 33.3%;
+    width: 100%;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;   
+    color: rgb(31, 27, 27);
+
+    
+}
+.l1{
+    background:linear-gradient(20deg,#080808, #f5f6f7)
+}
+.l2{
+    display: flex;
+    justify-content: start;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+@media screen and (min-width:800px){
+    .left{
+        font-size: 1.4em;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    gap:60px
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+}
+input{
+    width: 400px;
+    height:40px;
+    border-radius: 4%;
+}
+.l1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 254, 254);
+}
+.change:hover{
+    color: rgb(15, 15, 15);
+    box-shadow: 2px 2px 2px 2px;
+
+}
+button{
+    height:50px;
+    width:200px;
+    box-shadow: 8px 8px rgb(50, 15, 105);
+    color:rgb(0, 0, 0);
+    background-color: #feffff;
+}
+input{
+    font-size: 20px;
+}
